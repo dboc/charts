@@ -494,7 +494,14 @@ master:
     ## e.g.
     ## loadBalancerSourceRanges:
     ##   - 10.10.10.0/24
-    ##
+    ##    
+    externalIPs: []
+    ## @param master.service.externalIPs Redis&reg; master service External IPs
+    ## https://kubernetes.io/docs/concepts/services-networking/service/#external-ips
+    ## e.g.
+    ## externalIPs:
+    ##   - 10.10.10.1
+    ##   - 201.22.30.1
     loadBalancerSourceRanges: []
     ## @param master.service.annotations Additional custom annotations for Redis&reg; master service
     ##
