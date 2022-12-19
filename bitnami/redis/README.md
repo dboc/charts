@@ -209,8 +209,8 @@ The command removes all the Kubernetes components associated with the chart and 
 | `master.service.internalTrafficPolicy`               | Redis&reg; master service internal traffic policy (requires Kubernetes v1.22 or greater to be usable) | `Cluster`                |
 | `master.service.clusterIP`                           | Redis&reg; master service Cluster IP                                                                  | `""`                     |
 | `master.service.loadBalancerIP`                      | Redis&reg; master service Load Balancer IP                                                            | `""`                     |
-| `master.service.loadBalancerSourceRanges`            | Redis&reg; master service Load Balancer sources                                                       | `[]`                     |
 | `master.service.externalIPs`                         | Redis&reg; master service External IPs                                                                | `[]`                     |
+| `master.service.loadBalancerSourceRanges`            | Redis&reg; master service Load Balancer sources                                                       | `[]`                     |
 | `master.service.annotations`                         | Additional custom annotations for Redis&reg; master service                                           | `{}`                     |
 | `master.service.sessionAffinity`                     | Session Affinity for Kubernetes service, can be "None" or "ClientIP"                                  | `None`                   |
 | `master.service.sessionAffinityConfig`               | Additional settings for the sessionAffinity                                                           | `{}`                     |
